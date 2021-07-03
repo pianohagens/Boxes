@@ -5,7 +5,7 @@ Theme Name: Volunteers At Lowell
 Author: Piano Hagens
 Author URI: http://www.pianohagens.com/VolunteersAtLowell/
 Description: This project is to build a web based application that help manage volunteer source since there are certain number of volunteers has involved to Lowell as volunteers. 
-Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=cccccc" style="width:100%"
+Place holder source: http://fpoimg.com/1045x576?text=image 1&bg_color=BDBDBD" style="width:100%"
 tags: 
 Version: 0.01_05/28/2018
 */
@@ -21,7 +21,6 @@ body {
     margin: 10px auto;
     width: 90%;
     max-width: 1200px;
-    background-color: #f4f4f4;	
 	}
 
 h1 {
@@ -44,12 +43,12 @@ a {
 	font-size: 14px;	
 	}
 	
-a:hover, li:hover {
-	opacity: .7;	
+a:hover, li:hover, ul:hover {
+	color: 	#6699CC;
 	}
 li {
     list-style-type: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 	
 img {
@@ -80,7 +79,7 @@ ul.ulinks{
 }
 
 ul.ulinks li{    
-    background-color: #ffffff;
+    background-color: #BDBDBD;
     display: inline;
 }
 .buttonlink{
@@ -88,7 +87,6 @@ ul.ulinks li{
     top: 60px;
     right: 30px;
     width: 150px;
-    background: #f6f7f7;
     padding:10px;
 }
 .buttonlink img.links {
@@ -100,7 +98,6 @@ ul.ulinks li{
     top: 100px;
     left: 10px;
     width: 180px;
-    background: #f6f7f7;
 }
 
 
@@ -117,50 +114,52 @@ h6, h7{
 */
 /*************************************************/
 ul#myNav {
+    
     width: 100%;
     max-width: 1200px;
-    height: 40px;
-    clear: both;    
-    margin: 2px auto;
-    padding: 0 10px 10px 5px;
+    height: 50px;
+    clear: both; 
+    margin-block-end: 1em;
+    margin-block-start: 1em;
     overflow: hidden;
-   border: 2px solid #fff;
 }
 li {
-    width: 230px; 
-    background-color: #ccc;
+    margin-left: -3.5px;
+    width: 200px; 
+    background-color: #BDBDBD;
     list-style-type: none;
     display: inline-block; 
-    padding: 14px 16px; 
-    margin-left: 10px;
+    padding: 14px 6px; 
     text-align: center;
 }    
 li:hover{
-    background-color: lightcoral;     
+    background-color: #BDBDBD;     
     }
 li a{
-        color: black;
+        color: #003B6D;
         text-decoration: none;        
+        font-weight: bold;
     } 
 ul.dropdown-content {
+    margin-top: 12px;
     position: absolute;
-    background-color:#555;
-    width: 220px; 
-    margin-left: -15px;
+    width: 200px; 
     display: none;
     
 }   
 ul.dropdown-content li{
-    width: 210px; 
-    border: 2px solid #888;
-    margin-left: -35px;
+    width: 200px; 
+    border-top: 1px solid #003B6D;
+    margin-left: -12px;
+    
+    
     }   
 ul.dropdown-content li:hover{
        background-color: lavender; 
     }
 ul.dropdown-content li a.dropbtn {
     display: inline-block;
-    color: white;
+    color: #BDBDBD;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
